@@ -1,24 +1,39 @@
 import React from 'react';
 import '../styles/Style.css';
 import { GitHub, LinkedIn } from '@mui/icons-material';
-
-
-
-
+import { Grid } from '@mui/material';
 
 const Hero = () => {
     return (
-        <><div className='container'>
-            <div className='hero'>
-                <section className='text-section'>
-                    <h1 className='hero-text' style={{ fontWeight: "800", fontSize: "47px" }}>Front-End React Developer<img className='wave-img' height={50} width={50} src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' /></h1>
-                    <p className='hero-text'>Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
-                    <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'><LinkedIn style={{ fontSize: "35px" }} /></a><a href='https://github.com/sidrupwate' className='social'><GitHub style={{ fontSize: "35px" }} /></a>
-                </section>
-                <section className='image-section'>
-                    <img className='hero-img' src='https://nsy.co.in/images/dev.gif' />
-                </section>
-            </div>
+        <div className='container'>
+            <Grid container spacing={4}>
+                <Grid item md={6} xs={110}>
+                    <div className='hero'>
+                        <section className='text-section'>
+                            <h1 className='hero-text' style={{ fontWeight: "800", fontSize: "47px" }}>
+                                Front-End React Developer
+                                <img className='wave-img' height={50} width={50} src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' />
+                            </h1>
+                            <p className='hero-text'>Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
+                            <div>
+                                <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
+                                    <LinkedIn style={{ fontSize: "35px" }} />
+                                </a>
+                                <a href='https://github.com/sidrupwate' className='social'>
+                                    <GitHub style={{ fontSize: "35px" }} />
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </Grid>
+                <Grid item md={4} xs={12}>
+                    <div className='hero'>
+                        <section className='image-section'>
+                            <img className='hero-img' src='https://nsy.co.in/images/dev.gif' />
+                        </section>
+                    </div>
+                </Grid>
+            </Grid>
             <div className='tech-section'>
                 <div>
                     <h5 className='tech-text' style={{ fontWeight: "700", marginTop: "10px" }}>Tech Stack</h5>
@@ -45,8 +60,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        </>
-    )
+    );
 }
 
-export default Hero
+export default Hero;
