@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2959d73.css",
+    "main.js": "/static/js/main.b5ae80a6.js",
+    "static/media/Weather.png": "/static/media/Weather.f5c2ecb79f4d46aa9fc5.png",
+    "static/media/ProductPage.png": "/static/media/ProductPage.e10e949da5f0d211ec64.png",
+    "static/media/AboutImage.png": "/static/media/AboutImage.915ed706f684302116fe.png",
+    "static/media/CheckoutPage.png": "/static/media/CheckoutPage.cdc420b87a907031c6b5.png",
+    "static/media/LoginPage.png": "/static/media/LoginPage.e58ac8a01186f897ed82.png",
+    "index.html": "/index.html",
+    "main.a2959d73.css.map": "/static/css/main.a2959d73.css.map",
+    "main.b5ae80a6.js.map": "/static/js/main.b5ae80a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2959d73.css",
+    "static/js/main.b5ae80a6.js"
+  ]
+}
